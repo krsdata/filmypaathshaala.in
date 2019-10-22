@@ -88,7 +88,7 @@
             
             <!--Btn Box-->
             <div class="btn-box text-center">
-              <a href="case.html" class="theme-btn btn-style-one">View All</a>
+              <a href="{{url('caseStudy')}}" class="theme-btn btn-style-one">View All</a>
             </div>
             
         </div>
