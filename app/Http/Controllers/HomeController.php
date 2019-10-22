@@ -76,6 +76,23 @@ class HomeController extends Controller
           View::share('blog4',$blog4);
 }
 
+
+/**
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function caseStudy()
+    { 
+        $title = "Case Study";
+        $tagLine = "Digital Marketing Aganecy";
+
+        $meta1 = '<meta name="description" content="Biggest Facebook Digital Platform with over 90M likes & Engagement Of Over 200M People in India"/>';
+        $meta2 ='<meta name="keywords" content="Digital Marketing, SEO, Memes, Promotions, Branding, Website Development and Web server proviver"/>';
+
+
+        return view('frontend.caseStudy',compact('title','tagLine','meta1','meta2'));
+    }  
     /**
      * Show the application dashboard.
      *

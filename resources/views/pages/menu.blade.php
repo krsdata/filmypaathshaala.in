@@ -16,7 +16,7 @@
                                 </ul>
                             </li>
                           <li><a href="#"><span class="icon fa fa-phone"></span>Talk With Our Spacialist: <strong>+91 787 580 0723</strong> </a></li>
-                            <li><a href="https://www.filmypaathshaala.com/"><span class="icon"></span>Our latest Blogs</a></li>
+                            <li><a href="{{url('blog')}}"><span class="icon"></span>Our latest Blogs</a></li>
                         </ul>
                     </div>
                     
@@ -58,7 +58,7 @@
               <div class="outer-container clearfix">
                     <!--Logo Box-->
                     <div class="logo-box">
-                        <div class="logo"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
+                        <div class="logo"><a href="{{url('/')}}"><img src="images/logo.png" alt=""></a></div>
                     </div>
                     
                     <!--Nav Outer-->
@@ -89,7 +89,7 @@
                                              
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="#">Case Studies</a>
+                                    <li><a href="{{url('caseStudy')}}">Case Studies</a>
                                        
                                     </li>
                                     <li><a href="{{url('contact')}}">Contact</a></li>
@@ -150,7 +150,7 @@
                                              
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="#">Case Studies</a>
+                                    <li><a href="{{url('caseStudy')}}">Case Studies</a>
                                        
                                     </li>
                                     <li><a href="{{url('contact')}}">Contact</a></li>

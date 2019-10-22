@@ -79,7 +79,10 @@ Route::get('about',[
           'as' => 'about',
           'uses'  => 'HomeController@about'
         ]);
-
+Route::get('caseStudy',[
+          'as' => 'caseStudy',
+          'uses'  => 'HomeController@caseStudy'
+        ]);
 
 Route::get('services',[
           'as' => 'services',
